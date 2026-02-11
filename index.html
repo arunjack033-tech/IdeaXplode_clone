@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ideaXplode | Clone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">
+        <img src="assets/images/ideaXplode Logo.png" alt="ideaXplode logo" />
+      </div>
+
+      <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+
+      <nav>
+        <ul class="nav-item">
+          <li><a href="#">About<i class="bi bi-arrow-down-circle-fill"></i></a></li>
+          <li><a href="#">Technology<i class="bi bi-arrow-down-circle-fill"></i></a></li>
+          <li><a href="#">Methodology<i class="bi bi-arrow-down-circle-fill"></i></a></li>
+          <li><a href="#">Pricing<i class="bi bi-arrow-down-circle-fill"></i></a></li>
+          <li><a href="#">Contact<i class="bi bi-arrow-down-circle-fill"></i></a></li>
+          <li><a href="#" class="nav-btn"><i class="bi bi-whatsapp"></i> Chat with Rathan</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero reveal soft-bg">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <h1>
+          If you've got an idea,<br />
+          we can make it <span>Xplode</span><br />
+          into...
+        </h1>
+        <p>
+          We're a high-performance software development team.<br />
+          We build apps fast &mdash; using <span class="blue">No-Code</span> and <span class="orange">AI Tools</span>.
+        </p>
+        <button class="hero-btn">
+          <i class="bi bi-arrow-down-circle-fill"></i>
+          How fast can you build?
+        </button>
+      </div>
+
+      <div class="hero-right">
+        <div class="divider"></div>
+        <div class="hero-right-text">
+          <h3>AI Workflows</h3>
+          <p>to achieve the previously impossible</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MVP SECTION -->
+  <section class="mvp-section reveal soft-bg">
+    <div class="container">
+      <div class="client-logos">
+        <img src="assets/images/ClientBrand1.png" alt="Concreon" />
+        <img src="assets/images/ClientBrand2.png" alt="Verve VFX" />
+        <img src="assets/images/ClientBrand3.png" alt="Bibles for America" />
+        <img src="assets/images/ClientBrand4.png" alt="NTELI" />
+        <img src="assets/images/ClientBrand5.png" alt="JKS Info Tech" />
+        <img src="assets/images/ClientBrand6.png" alt="Worgware" />
+      </div>
+
+      <div class="divider-line"></div>
+
+      <h2 class="mvp-sub">We can <span>build</span> MVPs and apps</h2>
+      <h1 class="mvp-main">In a matter of weeks rather than months</h1>
+      <p class="mvp-desc">Thanks to no-code and AI tools &mdash; and our expertise in using them</p>
+
+      <div class="mvp-cards">
+        <div class="mvp-card">
+          <div class="icon"><i class="bi bi-rocket-takeoff"></i></div>
+          <h3>Build rapidly</h3>
+          <p>
+            No-code &amp; AI tools offer unprecedented development speed.
+            Iterate fast &rarr; build features fast &rarr; launch fast &rarr;
+            and accommodate user feedback fast!
+          </p>
+        </div>
+
+        <div class="mvp-card">
+          <div class="icon"><i class="bi bi-bar-chart"></i></div>
+          <h3>Validate quickly</h3>
+          <p>
+            You can directly launch your app to test the waters &mdash;
+            no need for market study or even wireframes. Validate your idea
+            and grow &mdash; or pivot! Sooner is always better than later.
+          </p>
+        </div>
+
+        <div class="mvp-card">
+          <div class="icon"><i class="bi bi-cash-coin"></i></div>
+          <h3>Save continuously</h3>
+          <p>
+            Save cost on team size, dev time and technical overheads (one
+            platform can handle everything). We can help you hit the market
+            with minimal resources. You can pivot before spending too much.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ONE WEEK CHALLENGE -->
+  <section class="challenge-section reveal">
+    <div class="container">
+      <div class="challenge-box">
+        <h2>Take the <span>One-Week Challenge!</span></h2>
+        <p>
+          Want to see what ideaXplode can build for you in a week's time?
+          Pay for it only if you want to continue with the project.
+          Some terms and conditions apply.
+        </p>
+        <button class="challenge-btn">
+          <i class="bi bi-hand-thumbs-up"></i>
+          Take up the challenge
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- POWER STATEMENT -->
+  <section class="power-section reveal">
+    <div class="container">
+      <h1>
+        <em>Experience the power of no-code &amp; AI</em> &mdash; cut<br />
+        your development <span>cost upto 70%!</span>
+      </h1>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGY INTRO -->
+  <section class="tech-intro reveal">
+    <div class="container">
+      <h3>How do we build?</h3>
+      <h1>Technology has evolved. So have we.</h1>
+      <p>Welcome to the modern software development paradigm</p>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGY CARDS -->
+  <section class="tech-cards-section reveal">
+    <div class="container tech-grid">
+      <div class="tech-card blue">
+        <h2>No-Code</h2>
+        <div class="icon"><i class="bi bi-code-slash"></i></div>
+        <p>
+          No-code tools have changed the game for software development.
+          From design to deployment, everything comes out of the box
+          in a single platform. Mature no-code tools enable building
+          even complex applications.
+        </p>
+        <button><i class="bi bi-chevron-down"></i> Tell me more</button>
+      </div>
+
+      <div class="tech-card pink">
+        <h2>Low-Code</h2>
+        <div class="icon"><i class="bi bi-braces"></i></div>
+        <p>
+          When we try to build custom experiences using no-code tools and
+          hit platform's limits, having coding expertise will keep us flying.
+          Low-code grants unlimited extensibility of the no-code platform.
+        </p>
+        <button><i class="bi bi-chevron-down"></i> Tell me more</button>
+      </div>
+
+      <div class="tech-card orange">
+        <h2>AI-Code</h2>
+        <div class="icon"><i class="bi bi-robot"></i></div>
+        <p>
+          AI-Code is not "vibe coding". Vibes simply cannot produce
+          production-grade applications. Through a systematic, AI-native
+          methodology, we make sure your software is secure, stable and scalable.
+        </p>
+        <button><i class="bi bi-chevron-down"></i> Tell me more</button>
+      </div>
+
+      <div class="tech-card purple">
+        <h2>AI-Build</h2>
+        <div class="icon"><i class="bi bi-robot"></i> <i class="bi bi-building"></i></div>
+        <p>
+          You describe what you want, and the AI builder generates an app.
+          Sounds simple. But real-world applications bring unexpected challenges:
+          bugs, security gaps, or ambiguous behavior.
+        </p>
+        <button><i class="bi bi-chevron-down"></i> Tell me more</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH STACK CTA -->
+  <section class="tech-stack-section reveal">
+    <div class="container">
+      <div class="tech-icons">
+        <img src="assets/images/TechLogo-Bubble.png" alt="Bubble" />
+        <img src="assets/images/TechLogo-Webflow.webp" alt="Webflow" />
+        <img src="assets/images/TechLogo-Glide.webp" alt="Glide" />
+        <img src="assets/images/TechLogo-Zapier.webp" alt="Zapier" />
+        <img src="assets/images/TechLogo-HTML.webp" alt="HTML" />
+        <img src="assets/images/TechLogo-CSS.webp" alt="CSS" />
+        <img src="assets/images/TechLogo-JS.webp" alt="JavaScript" />
+        <img src="assets/images/TechLogo-React.webp" alt="React" />
+        <img src="assets/images/TechLogo-v0.webp" alt="v0" />
+        <img src="assets/images/TechLogo-n8n.webp" alt="n8n" />
+        <img src="assets/images/TechLogo-Next.js.webp" alt="Next.js" />
+        <img src="assets/images/TechLogo-Node.js.webp" alt="Node.js" />
+        <img src="assets/images/TechLogo-Express.js.webp" alt="Express" />
+        <img src="assets/images/TechLogo-Lovable.dev.webp" alt="Lovable" />
+        <img src="assets/images/TechLogo-Cursor.io.webp" alt="Cursor" />
+        <img src="assets/images/TechLogo-ClaudeCode.webp" alt="Claude" />
+        <img src="assets/images/TechLogo-Boltnew.webp" alt="Bolt" />
+      </div>
+
+      <h2>
+        <em>So, what's the best tech stack?</em><br />
+        No-Code + AI is the future of building software!
+      </h2>
+      <p>Want to find out the best tech choices for your app?</p>
+      <button class="tech-btn"><i class="bi bi-send"></i> Discuss tech choices</button>
+    </div>
+  </section>
+
+  <!-- WHAT DO WE BUILD -->
+  <section class="build-section reveal">
+    <div class="container">
+      <h3 class="build-sub">What do we build?</h3>
+      <h1 class="build-title">We build solutions to solve your problems</h1>
+      <p class="build-desc">We'd love to ease your pain points through technology</p>
+
+      <div class="build-grid">
+        <div class="build-card purple">
+          <small>DELIGHTFUL</small>
+          <h2>Web Apps</h2>
+          <div class="icon"><i class="bi bi-globe2"></i></div>
+          <p>
+            Web apps can act as the centralized backend for all your operations
+            &mdash; with or without an UI
+          </p>
+          <button><i class="bi bi-chevron-down"></i> What tools do you use?</button>
+        </div>
+
+        <div class="build-card pink">
+          <small>SLEEK</small>
+          <h2>Mobile Apps</h2>
+          <div class="icon"><i class="bi bi-phone"></i></div>
+          <p>
+            Mobile apps increase user engagement with better access to user data
+            and device controls
+          </p>
+          <button><i class="bi bi-chevron-down"></i> What tools do you use?</button>
+        </div>
+
+        <div class="build-card blue">
+          <small>NATIVE-LIKE</small>
+          <h2>Mobile Sites</h2>
+          <div class="icon"><i class="bi bi-phone"></i><i class="bi bi-globe2"></i></div>
+          <p>
+            Let new users experience your service instantly without installing
+            anything &mdash; say, from a QR
+          </p>
+          <button><i class="bi bi-chevron-down"></i> What tools do you use?</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI SOLUTIONS -->
+  <section class="ai-section reveal soft-bg">
+    <div class="container">
+      <div class="ai-grid">
+        <div class="ai-card pink">
+          <small>SMART</small>
+          <h2>AI-Powered Apps</h2>
+          <div class="icon"><i class="bi bi-robot"></i></div>
+          <p>
+            Applications with embedded AI to provide smarter, interactive
+            experiences to users
+          </p>
+          <button><i class="bi bi-chevron-down"></i> What tools do you use?</button>
+        </div>
+
+        <div class="ai-card orange">
+          <small>INTELLIGENT</small>
+          <h2>AI Agents</h2>
+          <div class="icon"><i class="bi bi-cpu"></i></div>
+          <p>
+            Autonomous AI agents capable of executing tasks and understanding
+            user intents
+          </p>
+          <button><i class="bi bi-chevron-down"></i> What tools do you use?</button>
+        </div>
+
+        <div class="ai-card purple">
+          <small>CUSTOM-TRAINED</small>
+          <h2>AI Models</h2>
+          <div class="icon"><i class="bi bi-cpu"></i></div>
+          <p>
+            Custom-trained machine learning models tailored to solve specific
+            business problems.
+          </p>
+          <button><i class="bi bi-chevron-down"></i> What tools do you use?</button>
+        </div>
+      </div>
+
+      <p class="ai-statement">
+        With the power of no-code and AI, you can build your own custom apps for your
+        business &mdash; instead of paying for pre-built SaaS apps!
+      </p>
+    </div>
+  </section>
+
+  <!-- METHODOLOGY -->
+  <section class="methodology-section reveal">
+    <div class="container">
+      <h3 class="method-sub">What's our <span>methodology?</span></h3>
+      <h1 class="method-title">
+        <span class="accent">Agentic Agile:</span>
+        Having Agile foundations, but driven by AI agents
+      </h1>
+      <p class="method-desc">
+        We follow core Agile principles and practices &mdash; but with AI agents
+        augmenting in every step of the process
+      </p>
+
+      <p class="method-long">
+        Our methodology comprises a team of agentic Agile role players &mdash; right from a
+        <strong>Business Analyst</strong> to a <strong>Delivery Manager</strong>. This agentic team,
+        along with human developers, builds your software systems with precision and control.
+        This agentic methodology significantly reduces the human role players needed to develop
+        advanced systems.
+      </p>
+
+      <p class="journey-title">The journey of a feature:</p>
+
+      <div class="journey-flow">
+        <div class="step"><i class="bi bi-lightbulb"></i> Idea</div>
+        <span class="arrow">&#8594;</span>
+        <div class="step"><i class="bi bi-card-text"></i> User Story</div>
+        <span class="arrow">&#8594;</span>
+        <div class="step"><i class="bi bi-building"></i> Build</div>
+        <span class="arrow">&#8594;</span>
+        <div class="step"><i class="bi bi-check2-circle"></i> Test</div>
+        <span class="arrow">&#8594;</span>
+        <div class="step"><i class="bi bi-rocket-takeoff"></i> Launch</div>
+      </div>
+
+      <div class="feedback-wrap">
+        <span class="arrow">&#8623;</span>
+        <div class="step"><i class="bi bi-chat"></i> Feedback</div>
+      </div>
+
+      <button class="method-btn"><i class="bi bi-send"></i> Learn more about methodology</button>
+    </div>
+  </section>
+
+  <!-- OUR PROMISES -->
+  <section class="promise-section reveal">
+    <div class="container">
+      <p class="promise-sub">Our promises:</p>
+
+      <div class="promise-grid">
+        <div class="promise-item">
+          <span>We build fast</span>
+          <button onclick="togglePromise(this)"><i class="bi bi-chevron-down"></i> How?</button>
+          <p class="promise-desc">AI agents accelerate delivery without compromising quality.</p>
+        </div>
+
+        <div class="promise-item">
+          <span>We communicate clearly</span>
+          <button onclick="togglePromise(this)"><i class="bi bi-chevron-down"></i> How?</button>
+          <p class="promise-desc">Clear documentation, demos and async updates at every stage.</p>
+        </div>
+
+        <div class="promise-item">
+          <span>We are responsive</span>
+          <button onclick="togglePromise(this)"><i class="bi bi-chevron-down"></i> How?</button>
+          <p class="promise-desc">Fast turnaround times and proactive support.</p>
+        </div>
+
+        <div class="promise-item">
+          <span>We send daily updates</span>
+          <button onclick="togglePromise(this)"><i class="bi bi-chevron-down"></i> How?</button>
+          <p class="promise-desc">Daily progress summaries so you always know what's happening.</p>
+        </div>
+
+        <div class="promise-item">
+          <span>We maintain transparency</span>
+          <button onclick="togglePromise(this)"><i class="bi bi-chevron-down"></i> How?</button>
+          <p class="promise-desc">Open scope, visible backlog and shared decision-making.</p>
+        </div>
+
+        <div class="promise-item">
+          <span>We care about your success</span>
+          <button onclick="togglePromise(this)"><i class="bi bi-chevron-down"></i> How?</button>
+          <p class="promise-desc">We optimise for outcomes, not just outputs.</p>
+        </div>
+      </div>
+
+      <p class="promise-quote">
+        With Agentic Agile, startup founders could see their product evolve in real time, iteratively.
+      </p>
+    </div>
+  </section>
+
+  <!-- WHO ARE WE -->
+  <section class="about-section reveal">
+    <div class="container">
+      <h3 class="about-sub">Who are <span>we?</span></h3>
+      <h1 class="about-title"><span class="brand">ideaXplode</span> is an ambitious startup</h1>
+      <p class="about-tagline">that helps you navigate the complex maze of modern tech</p>
+      <p class="about-desc">
+        We started ideaXplode to help ideators, innovators and startup founders to enter into and
+        succeed in this brave new world of AI. This is the dawn of a new age where we and the machines
+        co-exist. From this point on, we and the machines will be creating the future together. We want
+        to help you solve the problems that crop up in this new age.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOUNDER -->
+  <section class="founder-section reveal">
+    <div class="container founder-grid">
+      <div class="founder-image">
+        <img src="assets/images/RathanWithLogos.png" alt="Rathan - Founder & CEO" />
+        <a href="#" class="linkedin">in</a>
+      </div>
+
+      <div class="founder-content">
+        <h2>Meet the founder &amp; CEO: <span>Rathan</span></h2>
+        <p class="intro">
+          Hi, I'm Rathan &mdash; a developer at heart and an entrepreneur by trade. After 20+ years of
+          building software the traditional way, I now help startups launch products at never before
+          speeds using no-code and AI. Through ideaXplode, I love turning bold ideas into real, working apps.
+        </p>
+        <p class="bio">
+          Rathan is a serial tech entrepreneur who has served 80+ clients globally &mdash; in the US,
+          Europe, Australia and Asia. If there's one thing that Rathan considers to be his core strength
+          after donning almost all the roles in software engineering, it's being a visionary product engineer.
+          In this AI era, product engineering is the most valuable skill.
+        </p>
+        <button class="method-btn">What is product engineering?</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial-section reveal">
+    <div class="container testimonial-grid">
+      <div class="testimonial-images">
+        <img src="assets/images/TeamPhoto08d.jpg" class="img img1" alt="Team" />
+        <img src="assets/images/TeamPhoto09.jpg" class="img img2" alt="Team" />
+        <img src="assets/images/TeamPhoto10.jpg" class="img img3" alt="Team" />
+      </div>
+
+      <div class="testimonial-content">
+        <button class="arrow left" onclick="prevTestimonial()">&#8249;</button>
+        <blockquote id="quote">
+          � I have worked with numerous offshore software consultants but Rathan's team is at least 100 times better. �
+        </blockquote>
+        <p class="author">
+          &mdash; Philip Bradley<br />
+          <span>CTO, Lencomms Inc.</span>
+          <span class="in">in</span>
+        </p>
+        <button class="arrow right" onclick="nextTestimonial()">&#8250;</button>
+      </div>
+    </div>
+
+    <p class="testimonial-footer">
+      You can think of us as your innovation partner &mdash; as you lead your organization into AI transformation.
+    </p>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing-section reveal soft-bg">
+    <div class="container">
+      <h3 class="pricing-sub">What are our <span>pricing</span> options?</h3>
+      <h1 class="pricing-title">Transparent, predictable pricing &mdash; no surprises</h1>
+      <p class="pricing-desc">Choose the option that suits your budget and roadmap</p>
+
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h2>Fixed pricing</h2>
+          <ul>
+            <li>Frozen requirements</li>
+            <li>Estimated cost</li>
+            <li>Some buffer for contingency</li>
+            <li>Milestone-based feedback</li>
+            <li>Minimal reporting</li>
+          </ul>
+        </div>
+
+        <div class="pricing-card">
+          <h2>Flexible pricing</h2>
+          <ul>
+            <li>Flexible requirements</li>
+            <li>Actual cost</li>
+            <li>NO buffer</li>
+            <li>Daily feedback</li>
+            <li>Comprehensive reporting</li>
+          </ul>
+        </div>
+
+        <div class="pricing-card highlight">
+          <h2>Hybrid</h2>
+          <p>
+            Start with fixed pricing and move on to flexible as your product shapes up.
+          </p>
+        </div>
+      </div>
+
+      <p class="pricing-cta-text">Want to know our rates or get an estimate?</p>
+      <button class="pricing-btn"><i class="bi bi-send"></i> Discuss about pricing</button>
+    </div>
+  </section>
+
+  <!-- PRODUCTIZED STATEMENT -->
+  <section class="productized-section reveal">
+    <div class="container">
+      <p>Our <span>productized service</span> model helps you save money and launch faster!</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section reveal">
+    <div class="container contact-grid">
+      <div class="contact-text">
+        <h3>Feel free to <span>reach out</span> to us!</h3>
+
+        <div class="contact-item">
+          <h4>Want to see an app demo?</h4>
+          <p>We can share the credentials of an app that we had built &mdash; for you to try.</p>
+        </div>
+
+        <div class="contact-item">
+          <h4>Want to sign an NDA?</h4>
+          <p>
+            If you prefer to sign an NDA with us before discussing your idea, we can get it done in 48 hours.
+          </p>
+        </div>
+
+        <div class="contact-item">
+          <h4>Want to join our team?</h4>
+          <p>
+            We have developer and intern positions open. If you think you have a problem-solving mindset and are willing
+            to take up challenges as part of the interview process, please send in your resume &mdash; let's get the conversation started.
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-actions">
+        <button class="contact-btn"><i class="bi bi-stars"></i> Get app credentials</button>
+        <button class="contact-btn"><i class="bi bi-pen"></i> Sign NDA</button>
+        <button class="contact-btn"><i class="bi bi-people"></i> Apply to join</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h2>ideaXplode</h2>
+        <p>
+          ideaXplode is a No-Code + AI software development studio that helps founders launch real, market-ready apps in weeks, not months.
+        </p>
+        <span class="copyright">Made with <span class="heart">&#10084;</span> by ideaXplode &copy; 2025</span>
+      </div>
+
+      <div class="footer-links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">Methodology</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact us</h4>
+        <p>
+          ideaXplode Technologies<br />
+          #200, I Floor, 3rd Main Road,<br />
+          C L R I Nagar, Neelankarai,<br />
+          Chennai &ndash; 600115, India.
+        </p>
+        <a href="#" class="map"><i class="bi bi-geo-alt"></i> Map location</a>
+        <p><i class="bi bi-envelope"></i> hola@ideaxplode.com</p>
+        <p><i class="bi bi-telephone"></i> +91 6383-9530-22</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/scroll.js"></script>
+</body>
+</html>
